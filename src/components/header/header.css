@@ -1,0 +1,32 @@
+.header{
+    background: #1C2B35;
+    padding: 20px 0;
+}
+.header .container{
+    max-width: 1000px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{}
+.header_logo img{}
+.header_links{}
+.header_links ul{
+    display: flex;
+    gap: 2rem;
+}
+.header_links ul li{
+    list-style: none;
+}
+.header_links ul li a{
+    color: #FFF;
+
+    /* Body 1 */
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.085px;
+}
