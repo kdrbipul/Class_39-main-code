@@ -2,7 +2,7 @@ import { BsCart4 } from 'react-icons/bs';
 import "./product.css"
 
 // eslint-disable-next-line react/prop-types
-const Product = ({product}) => {
+const Product = ({product,handleAddToCart}) => {
     // console.log(product);
 
     const{img, name, price, seller, ratings} = product;
@@ -13,7 +13,7 @@ const Product = ({product}) => {
             <h3 className='product_price'>Price : ${price}</h3>
             <p className='product_brand'>Manufactoring : {seller}</p>
             <p className='product_ratings'>{ratings}</p>
-            <button className='product_btn'>Add To Cart <BsCart4></BsCart4></button>
+            <button className='product_btn' onClick={()=>handleAddToCart(product)}>Add To Cart <BsCart4></BsCart4></button>
         </div>
     );
 };

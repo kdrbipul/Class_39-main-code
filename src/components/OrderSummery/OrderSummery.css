@@ -1,0 +1,66 @@
+.order_summery{
+    width: 250px;
+    height: 100%;
+    background-color: rgba(255,153,0,0.30);
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 23px;
+}
+
+.order_summery h2{
+    color: #0E161A;
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    letter-spacing: 0.032px;
+    margin-bottom: 35px;
+}
+.order_summery h3{
+    color: #2A414F;
+    font-family: Lato;
+    font-size: 17px;
+    font-style:normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.084px;
+    margin-bottom: 35px;
+}
+
+.order_summery button{
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 14px 0;
+    color: #FFF;
+
+    /*Body 1 */
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.085px;
+    border-radius: 4px;
+    transition: all 4ms linear;
+    border: none;
+    outline: none;
+}
+
+.order_summery button:first-of-type{
+    background-color: #FF3030;
+}
+
+.order_summery button:last-child{
+    background-color: #FF9900;
+}
+
+.order_summery button:first-of-type:hover{
+    background-color:#FF9900;
+    cursor: pointer;
+}
+.order_summery button:last-child:hover{
+    background-color: #FF3030;
+    cursor: pointer;
+}
