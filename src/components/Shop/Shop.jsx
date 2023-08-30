@@ -25,6 +25,12 @@ const Shop = () => {
     }
     // console.log(cart);
 
+    const handleClearCart=()=>{
+        console.log("clear");
+        
+
+    }
+    
 
     return (
         <div className="shop">
@@ -35,7 +41,7 @@ const Shop = () => {
                     }
                 </div>
             </div>
-            <OrderSummery cart={cart}></OrderSummery>
+            <OrderSummery cart={cart} handleClearCart={handleClearCart}></OrderSummery>
         </div>
     );
 };
