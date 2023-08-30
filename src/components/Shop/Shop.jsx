@@ -26,7 +26,8 @@ const Shop = () => {
     // console.log(cart);
 
     const handleClearCart=()=>{
-        console.log("clear");
+        // console.log("clear");
+        setCart([])
         
 
     }
